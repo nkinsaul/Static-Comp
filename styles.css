@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-edgar-daniel-herna%CC%81ndez-cervantes-3628100.jpeg');
-    background-repeat: no-repeat;
+    /* background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-edgar-daniel-herna%CC%81ndez-cervantes-3628100.jpeg');
+    background-repeat: no-repeat; */
     display: flex;
     flex-direction: row-reverse;
     height: 23vh;
@@ -76,10 +76,32 @@ main {
 }
 
 .box-header {
-    height: 45%;
+    height: 43%;
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.views-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 32%;
+    padding: 10px;
+    background-color: #ffc107;
+    opacity: 64%;
+}
+
+h2 {
+    margin: 0;
+    opacity: 100%;
+}
+
+h3 {
+    margin: 0;
+    font-size: 50px;
+    opacity: 100%;
 }
 
 .one {
@@ -129,7 +151,7 @@ main {
 }
 
 .info-box {
-    height: 55%;
+    height: 57%;
     width: 100%;
     display: flex;
     flex-direction: column;
