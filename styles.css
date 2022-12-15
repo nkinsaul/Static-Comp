@@ -1,11 +1,15 @@
 body {
     height: 100%;
     width: 100vw;
+    background-color: #0d47a1;
     display: flex;
     flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-edgar-daniel-herna%CC%81ndez-cervantes-3628100.jpeg');
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row-reverse;
     height: 23vh;
@@ -71,6 +75,64 @@ main {
     padding-bottom: 1%;
 }
 
+.box-header {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .one {
-    background-image: url
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-mareks-steins-1560666.jpeg');
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-quang-nguyen-vinh-2133176.jpeg');
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-lerkrat-tangsri-93825.jpeg');
+    background-repeat: no-repeat;
+}
+
+.four {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-brixiv-3041758.jpeg');
+    background-repeat: no-repeat;
+}
+
+.five {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-rodnae-productions-7516523.jpeg');
+    background-repeat: no-repeat;
+}
+
+.six {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-pixabay-235805.jpeg');
+    background-repeat: no-repeat;
+}
+
+.seven {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-pixabay-164186.jpeg');
+    background-repeat: no-repeat;
+}
+
+.eight {
+    background-image: url('file:///Users/nataliekinsaul/turing/mod2/projects/Static-Comp/assets/pexels-rodnae-productions-7516473.jpeg');
+    background-repeat: no-repeat;
+}
+
+.arrow {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.info-box {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f5f5f5;
 }
