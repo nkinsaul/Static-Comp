@@ -31,9 +31,22 @@ header {
     padding-bottom: 25px;
 }
 
+.user-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 61%;
+}
+
 .user-icon {
-    height: 5vh;
-    width: 5vw;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(245, 245, 245, .1);
+}
+
+.drop-down-menu {
+    height: 30px;
+    width: 30px;
 }
 
 .logo {
@@ -45,9 +58,9 @@ header {
 }
 
 .logo-image {
-    height: 12vh;
-    width: 10vw;    
-    background-color: rgb(245, 245, 245, .1);
+    height: 90%;
+    width: 30%;   
+    /* background-color: rgb(245, 245, 245, .1); */
     border-radius: 10px;
 }
 
@@ -57,7 +70,7 @@ header {
 }
 
 .nav-left {
-    width: 25%;
+    width: 22%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -89,21 +102,18 @@ header {
 .share-image {
     height: 30px;
     width: 30px;
-    background-color:rgb(245, 245, 245, .1);
     border-radius: 5px;
 }
 
 .playlist-image {
     height: 30px;
     width: 30px;
-    background-color:rgb(245, 245, 245, .1);
     border-radius: 5px;
 }
 
 .video-image {
     height: 30px;
     width: 30px;
-    background-color:rgb(245, 245, 245, .1);
     border-radius: 5px;
 }
 
