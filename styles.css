@@ -19,6 +19,7 @@ header {
     padding-right: 5vw;
     justify-content: space-between;
     align-items: flex-end;
+    background-color: rgb(13, 71, 161);;
 }
 
 .nav-right {
@@ -27,25 +28,83 @@ header {
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.user-icon {
+    height: 5vh;
+    width: 5vw;
 }
 
 .logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 53%;
+    align-items: center;
+}
+
+.logo-image {
+    height: 12vh;
+    width: 10vw;    
+    background-color: rgb(245, 245, 245, .1);
+    border-radius: 10px;
 }
 
 .app-name {
     margin: 0;
+    padding-left: 22px;
 }
 
 .nav-left {
-    width: 32%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     height: 75%;
+    padding-bottom: 25px;
+}
+
+.shares {
+    display: flex;
+    width: 87px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.playlists {
+    display: flex;
+    width: 97px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video {
+    display: flex;
+    width: 87px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.share-image {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(245, 245, 245, .1);
+    border-radius: 5px;
+}
+
+.playlist-image {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(245, 245, 245, .1);
+    border-radius: 5px;
+}
+
+.video-image {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(245, 245, 245, .1);
+    border-radius: 5px;
 }
 
 main {
