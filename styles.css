@@ -23,30 +23,33 @@ header {
 }
 
 .nav-right {
-    height: 75%;
+    height: 92%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding-bottom: 25px;
 }
 
 .user-menu {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 61%;
+    justify-content: flex-end;
+    width: 42%;
+}
+
+.username {
+    padding-left: 48px;
+    padding-right: 61px;
 }
 
 .user-icon {
-    height: 30px;
-    width: 30px;
-    background-color: rgb(245, 245, 245, .1);
+    height: 35px;
+    width: 35px;
 }
 
 .drop-down-menu {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 
 .logo {
@@ -227,5 +230,54 @@ h3 {
     flex-direction: column;
     justify-content: space-around;
     background-color: #f5f5f5;
-    color: #212121
+    color: #212121;
 }
+
+.dog-name {
+    padding-left: 25px;
+    margin: 0;
+}
+
+.dog-playlist {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
+}
+
+.attachments-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 23%;
+    padding-left: 25px;
+}
+
+.attachments {
+    font-size: 10px;
+    margin: 0;
+}
+
+
+.video-box {
+    display: flex;
+    justify-content: flex-start;
+    height: 21%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dog-video {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 71, 161, .1);
+    width: 100%;
+    align-items: center;
+}
+
+.number {
+    font-size: 40px;
+    margin: 0;
+    color: #03a9f4
+}
+
